@@ -1,76 +1,60 @@
 <!DOCTYPE html>
 <head>
     <style>
-        table,th,td{
-             border: 1px solid;
-             text-align: center;
+        body{
+            background-color: #FFE4D6;
+        } 
+                
+        #navlist {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #D988B9;
+        text-align: center;
         }
 
-
-        td {
-            background-color: lightyellow;
-            
-        }
-        td[rowspan],td[colspan]{ background-color: green;}
-        th{ background-color: blue;}
+        #navlist li {
+       display: inline-block;
         
-    </style>
+        }
 
+        #navlist li a {
+        display: block;
+        color: #FACBEA;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        }
+
+        #navlist li a:hover {
+        background-color: #FACBEA;
+        color: white;
+        }
+        #navlist li a:active {
+        background-color: #B0578D;
+
+        }
+
+    </style>
 </head>
 <body>
-    <h1>10/11/23</h1>
-    <table style="width: 100%;" cellpadding="10">
-        <tr>
-            
-            <th colspan="6">Table title</th>
-            
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-        </tr>
-        <tr>
-            <td colspan="3">7</td>
-            <td colspan="3">8</td>
-        </tr>
-        <tr>
-            <td rowspan="2">
-                9
-            </td>
-            <td >
-                10
-            </td>
-            <td rowspan="2"> 11</td>
-            <td>12</td>
-            <td rowspan="2">13</td>
-            <td>14</td>
-        </tr>
-        <tr>
-            <td>15</td><td>16</td><td>17</td>
-        </tr>
-        <tr>
-            <td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
-        </tr>
-        <tr>
-            <td>24</td>
-            <td colspan="4" rowspan="3">25</td>
-            <td>26</td>
-        </tr>
-        <tr>
-            <td>26</td><td>27</td>
-        </tr>
-        <tr>
-            <td>28</td><td>29</td>
-        </tr>
-        <tr>
-            
-            <th colspan="6">Table footnote</th>
-            
-        </tr>
-
-    </table>
+    <ul id="navlist">
+        <li><a href="Lab2.html">Home</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Activity.html">Activity</a></li>
+        <li><a href="Conatct.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+    </ul>
+    <h1>Home</h1>
+    <div class="container">
+        <img src="ROCK.jpeg" alt="Rock" class="image">
+        <div class="overlay">
+          <div class="text">This is the ROCKs</div>
+        </div>
+    <hr>
+    <p>
+        Early life
+        Johnson was born in Hayward, California,[30] on May 2, 1972,[31] the son of Ata Johnson (née Maivia)[32] and former professional wrestler Rocky Johnson (born Wayde Douglas Bowles).[33][34] Growing up, he briefly lived in Grey Lynn in Auckland, New Zealand, with his mother's family,[35] where he played rugby[36] and attended Richmond Road Primary School before returning to the U.S.[35] 
+    </p>
 </body>
